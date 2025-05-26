@@ -7,12 +7,14 @@
   background-color: $primary-color;
   color: $secondary-color;
   position: relative;
+  padding: 20px;
 }
 
 .nav-links {
   display: flex;
   gap: 2rem;
   margin-right: auto;
+  margin-left: 40px;
 
   li {
     list-style: none;
@@ -50,6 +52,7 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
+  margin-top: 10px;
 
   img {
     height: 40px;
