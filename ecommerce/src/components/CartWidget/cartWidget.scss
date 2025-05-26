@@ -1,4 +1,4 @@
-@import '../../variables.scss';
+@import "../../variables.scss";
 
 .cart-widget {
   position: relative;
@@ -6,16 +6,30 @@
   color: $secondary-color;
   cursor: pointer;
   margin-right: 30px;
+  background-color: $primary-color;
+  color: $secondary-color;
+  cursor: pointer;
+  border: none;
+  outline: none;
 
-  i {
-    font-size: 24px; 
+.cart-icon{
+    width: 24px;
+    height: 24px;
   }
+
+  &:hover {
+    color: $accent-color;
+  }
+
+  &:active {
+    color: $primary-color;
+}
 
   .cart-count {
     position: absolute;
     bottom: -2px;
     right: -10px;
-    background-color:$accent-color;
+    background-color: $accent-color;
     border-radius: 50%;
     color: $primary-color;
     padding: 2px 1px;
