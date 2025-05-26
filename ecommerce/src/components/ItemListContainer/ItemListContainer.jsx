@@ -1,6 +1,8 @@
+import '../ItemListContainer/itemListContainer.scss';
+
 const ItemListContainer = ({greeting}) => {
     return (
-        <div>
+        <div className="item-list-container">
             <h2>{greeting} </h2>
         </div>
         
