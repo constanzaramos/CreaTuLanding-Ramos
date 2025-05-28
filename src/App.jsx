@@ -12,6 +12,7 @@ function App() {
       <img src= {banner} alt="banner-image" />
     </section>
       <ItemListContainer  greeting="¡Bienvenida a nuestra tienda!" />
+
     </>
   )
 }
